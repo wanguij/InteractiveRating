@@ -1,0 +1,30 @@
+
+
+div{
+    position: absolute;
+    width: 360px;
+    height: 327px;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 5px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, 
+    #232A34 0%, #181E27 100% );
+
+}
+h2{
+    color: #FFFFFF;
+}
+p{
+    color: #969FAD;
+}
+
+.button {
+    color: #FC7614;
+    position: absolute;
+}
+
+li{
+    color: #7C8798;
+    display:inline-block;
+    margin: 0 10px;
+}
