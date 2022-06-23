@@ -1,30 +1,95 @@
-
-
-div{
+.main {
+    text-align: left;
     position: absolute;
     width: 360px;
     height: 327px;
     padding: 5px;
     margin: 0px;
     border-radius: 5px;
-    background: radial-gradient(98.96% 98.96% at 50% 0%, 
-    #232A34 0%, #181E27 100% );
+    background: radial-gradient(98.96% 98.96% at 50% 0%,
+            #232A34 0%, #181E27 100%);
 
 }
-h2{
+
+.image i {
+    color: orange;
+
+    height: 20%;
+    width: 20%;
+}
+
+
+h2 {
+    text-align: left;
     color: #FFFFFF;
 }
-p{
+
+p {
+    text-align: left;
     color: #969FAD;
 }
 
-.button {
-    color: #FC7614;
+
+.sbutton {
     position: absolute;
+    bottom: 0px;
+
 }
 
-li{
-    color: #7C8798;
-    display:inline-block;
-    margin: 0 10px;
+.button {
+    border-radius: 22.5px;
+    background: #FC7614;
+    height: 45px;
+    width: 279px;
+    border:0px;
+
+
+}
+
+
+/* radio button styling
+.rbutton{
+    color: #969FAD;
+    border-radius: 10px;
+    padding: 30px 50px;
+}
+input{
+    display:none;
+}
+input + label{
+    cursor: pointer;
+    line-height: 40px;
+    padding-left: 40px;
+    position:relative;
+
+}
+input + label:before{
+    content:'';
+    border: 3px solid orange;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    transform: translateY(-50%);
+
+}
+
+input:checked + label::before{
+    box-shadow: inset 0 0 0 4px orange;
+    inset: 0 0 0 16px orange;
+}*/
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .main {
+        position: absolute;
+        width: 360px;
+        height: 327px;
+        padding: 5px;
+        margin: 0px;
+        border-radius: 5px;
+        background: #FFFFFF;
+
+    }
 }

@@ -6,14 +6,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Interactive Rating</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     </head>
     <body>
-        <div >
-        <h2> How did we do?</h2>
-        <p>Please let us know how we did with your support request. 
+        <!--This is the container with all the DIVs-->
+        <div class="main" >
+            <!--star div-->
+            <div class="image">
+                <!--<img src="./images/star1.svg" alt="Star"> -->
+                <i class="fa fa-star"></i>
+
+            </div>
+
+            <!--h2 text div-->
+            <div class="text1">
+            <h2> How did we do?</h2>
+            </div>
+
+            <!--p text div-->
+            <div class="ptext">
+
+            <p>Please let us know how we did with your support request. 
            All feedback is appreciated to help us improve our offering!
-        </p>
+            </p></div>
+
+            <!--radio button div-->
+            <div class="rbutton">
+                <input type="radio" id="1" name="fav_language" value="1">
+                <label for="1">1</label>
+                <input type="radio" id="2" name="fav_language" value="2">
+                <label for="2">2</label>
+                <input type="radio" id="3" name="fav_language" value="3">
+                <label for="3">3</label>
+                <input type="radio" id="4" name="fav_language"value="4">
+                <label for="4">4</label>
+                <input type="radio" id="5"name="fav_language" value="5">
+                <label for="5">5</label>
+            </div>
+<!--
         <ul>
             <li>1</li> 
             <li>2</li>
@@ -21,6 +52,11 @@
             <li>4</li>
             <li>5</li>
         </ul>
+    -->
+            <div class="sbutton">
+                <a href="thankyou.html">
+            <button class="button">Submit</button></a>
+            </div>
         </div>
         
         
