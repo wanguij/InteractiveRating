@@ -102,18 +102,22 @@ body {
 
 .rbutton div:hover,
 .rbutton div input:hover {
-    background: #7C8798;
+    background: #FC7614;
     color: #FFFFFF;
 
 }
 
-.rbutton div:active,
-.rbutton:focus,
-.rbutton div input:focus {
-
+.rbutton div:active{
     background: #FC7614;
     color: #FFFFFF;
-
+}
+.rbutton div:focus, .rbutton div:checked{
+    background: #FC7614;
+    color: #FFFFFF;
+}
+.rbutton div input:focus, .rbutton div input:checked {
+    background: #FC7614;
+    color: #FFFFFF;
 }
 
 
@@ -122,7 +126,7 @@ body {
     height: max-content;
 }
 
-.button {
+button {
     border-radius: 22.5px;
     background: #FC7614;
     height: 45px;
@@ -132,7 +136,7 @@ body {
     font-size: 15px;
 }
 
-.button:hover {
+button:hover {
     background: #FFFFFF;
     color: #FC7614;
 }
